@@ -1,5 +1,8 @@
-ano = 2003
-idade = 2024 - ano
-nome = "Brenno"
-mensagem = "Sou " + nome + " tenho " + idade + " anos"
-alert(mensagem)
+ano = 2003;
+today = new Date();
+year = today.getFullYear();
+idade = year - ano;
+nome = "Brenno";
+mensagem = "Sou " + nome + " tenho " + idade + " anos";
+alert(mensagem);
+
